@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
-function Row() {
+function Row({ title, fetchUrl}) {
+    const [movies, setMovies] = useState([]);
+
+    useEffect(() => { },[])
     return (
         <div>
            Favorite Movies

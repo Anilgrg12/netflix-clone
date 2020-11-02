@@ -6,8 +6,7 @@ function Row({ title, fetchUrl}) {
     useEffect(() => { },[])
     return (
         <div>
-           Favorite Movies
-           Most Popular movies 
+           <h2> {title} </h2>
         </div>
     )
 }

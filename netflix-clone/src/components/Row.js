@@ -8,15 +8,16 @@ function Row({ title, fetchUrl }) {
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(fetchUrl);
-      console.log(request);
+      console.log(request.data.results);
       return request;
     }
     fetchData();
   }, []);
 
   return (
-    <div>
+    <div className = "row">
       <h2> {title} </h2>
+    <div className = "row_posters"></div>
     </div>
   );
 }

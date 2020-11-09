@@ -3,7 +3,9 @@ import React, { useState, useEffect } from 'react'
 function Row({ title, fetchUrl}) {
     const [movies, setMovies] = useState([]);
 
-    useEffect(() => { },[])
+    useEffect(() => { 
+        
+    },[])
     return (
         <div>
            <h2> {title} </h2>

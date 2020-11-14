@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Row from "./components/Row";
+import Row from "./Row";
 import requests from "./requests";
 // import axios from './axios';
 

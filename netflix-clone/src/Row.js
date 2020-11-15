@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Axios from "./Axios";
-// import requests from "../requests";
 
 function Row({ title, fetchUrl }) {
   const [movies, setMovies] = useState([]);

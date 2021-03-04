@@ -12,7 +12,6 @@ function Row({ title, fetchUrl }) {
     }
     fetchData();
   }, []);
-
   return (
     <div className="row">
       <h2> {title} </h2>

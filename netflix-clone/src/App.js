@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       Learn React Redux!!!!
       <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOrginals} />
-      <Row title="Trending Now" fetchUrl={requests.fecthTrending} />
+      <Row title="Trending Now!!!!" fetchUrl={requests.fecthTrending} />
     </div>
   );
 }
